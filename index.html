@@ -108,39 +108,41 @@
         <section class="page-section text-white mb-0" id="program">
             <div class="container">
                 <div class="row">
-                    <div class="bg2" style="height: 350px;">
-                    <div style="width:65%; margin:0 auto; margin-top:70px;">
+                    <div class="bg2 program-wrap">
+                    <div class="program-inner">
                         <p><h4>Fitness Programınızı Oluşturmak İçin Bilgilerinizi Giriniz</h4></p>
 
-                <select id="genderOption" class="filterOptions" style="width: 150px; float:left;">
+                <div class="filter-row">
+                <select id="genderOption" class="filterOptions filter-select">
                     <option data-gender-option="all" value="all">Cinsiyet</option>
                     <option data-gender-option="erkek" value="erkek">Erkek</option>
                     <option data-gender-option="kadin" value="kadin">Kadın</option>
                 </select>
 
-                <select id="ageOption" class="filterOptions" style="width: 150px; float:left;">
+                <select id="ageOption" class="filterOptions filter-select">
                     <option data-age-option="all" value="all">Yaş</option>
                     <option data-age-option="18ust" value="ust">18 Yaş Üstü</option>
                     <option data-age-option="18alt" value="alt">18 Yaş Altı</option>
                 </select>
 
-                <select id="weightOption" class="filterOptions" style="width: 150px; float:left;">
+                <select id="weightOption" class="filterOptions filter-select">
                     <option data-weight-option="all" value="all">Kilo</option>
                     <option data-weight-option="60alt" value="60alt">60 Kg Altı</option>
                     <option data-weight-option="6070ara" value="6070ara">60-70 Kg Arası</option>
                     <option data-weight-option="70ust" value="70ust">70 Kg Üstü</option>
                 </select>
 
-                <select id="dayOption" class="filterOptions" style="width: 150px; float:left;">
+                <select id="dayOption" class="filterOptions filter-select">
                     <option data-day-option="all" value="all">Gün</option>
                     <option data-day-option="4gun" value="4gun">4 Gün</option>
                     <option data-day-option="5gun" value="5gun">5 Gün</option>
                 </select>
-                <select id="areaOption" class="filterOptions" style="width: 150px;">
+                <select id="areaOption" class="filterOptions filter-select">
                     <option data-area-option="all" value="all">Bölge</option>
                     <option data-area-option="altbolge" value="altbolge">Alt Bölge</option>
                     <option data-area-option="tumvucut" value="tumvucut">Tüm Vücut</option>
                 </select>
+                </div>
                 <div class="displayAll">
                 <div class="displayBox" data-gender-option="erkek" data-age-option="18alt" data-weight-option="60alt" data-day-option="4gun" data-area-option="altbolge">
                     <div style="width:20%; margin:0 auto;"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://drive.google.com/file/d/11_7QMXewWb9lYxwrb_iO6GNMgcPvPwvQ/view?usp=sharing"><i class="fa fa-cloud-download fa-2xl"></i></br></br>İndir</a>

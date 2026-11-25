@@ -35,7 +35,7 @@
      * Hide the results and reset the form
      */
     function resetForm(e) {
-        if (e.target.id = 'rs') {
+        if (e.target.id === 'rs') {
             e.preventDefault();
             results.style.display = 'none';
             form.style.display = '';

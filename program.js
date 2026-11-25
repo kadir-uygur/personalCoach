@@ -18,28 +18,17 @@
         if (theChosenGender != "all") {
             selector += '[data-gender-option="' + theChosenGender + '"]';
         }
-        else{
-            selector -= '[data-gender-option="' + theChosenGender + '"]';
-        }
         if (theChosenAge != "all") {
             selector += '[data-age-option="' + theChosenAge + '"]';
-        }else{
-            selector -= '[data-age-option="' + theChosenAge + '"]';
         }
         if (theChosenWeight != "all") {
             selector += '[data-weight-option="' + theChosenWeight + '"]';
-        }else{
-            selector -= '[data-weight-option="' + theChosenWeight + '"]';
         }
         if (theChosenDay != "all") {
             selector += '[data-day-option="' + theChosenDay + '"]';
-        }else{
-            selector -= '[data-day-option="' + theChosenDay + '"]';
         }
         if (theChosenArea != "all") {
             selector += '[data-area-option="' + theChosenArea + '"]';
-        }else{
-            selector -= '[data-area-option="' + theChosenArea + '"]';
         }
         
         $(selector).fadeIn();
